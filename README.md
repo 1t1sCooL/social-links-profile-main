@@ -15,7 +15,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Vercel](https://social-links-profile-main-phi-five.vercel.app/)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [mmalabugin.ru/SocialLinksProfile/]((https://mmalabugin.ru/SocialLinksProfile/))
 
 ## My process
 
