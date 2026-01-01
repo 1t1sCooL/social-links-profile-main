@@ -1,0 +1,12 @@
+FROM nginx:alpine
+
+RUN rm /etc/nginx/conf.d/default.conf
+
+COPY nginx.conf /etc/nginx/conf.d/default.conf
+
+COPY index.html /usr/share/nginx/html/SocialLinksProfile/
+COPY style.css /usr/share/nginx/html/SocialLinksProfile/
+COPY /assets /usr/share/nginx/html/SocialLinksProfile/assets/
+
+EXPOSE 80
+CMD ["nginx", "-g", "daemon off;"]
