@@ -4,9 +4,9 @@ kind: Kustomization
 resources:
   - deployment.yaml
   - service.yaml
-  - ingress.yaml
 
 images:
   - name: social-links-profile-main-app
     newName: social-links-profile-main-app
     newTag: latest
+
